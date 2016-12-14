@@ -1,0 +1,123 @@
+html,
+body{
+	margin: 0;
+	background-color: black;
+	padding:0;
+	height:100%;
+}
+
+body :link{
+	color: cadetblue;
+}
+
+#wrapper{
+	min-height:100%;
+	position:relative;
+}
+
+#header{
+	width: 100%;
+	height: 70px;
+	background-color: darkslategrey;
+	border-bottom: 2px white solid;
+}
+
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
+
+#reactionTesterLogo{
+	padding-top: 10px;
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+#reactionTesterLogoFooter{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+h1{
+	color: white;
+	font-family: roboto;
+	text-align: center;
+	font-weight: 300;
+}
+
+#hint{
+	color: white;
+	font-family: roboto;
+	text-align: center;
+	font-weight: 200;
+	margin-top: -20px;
+}
+
+#content{
+	padding-bottom: 100px;
+}
+
+#footer{
+	background-color: darkslategrey;
+	width: 100%;
+	height: 80px;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 2px white solid;
+}
+
+#copyright{
+	font-family: roboto;
+	color: white;
+	font-size: 10px;
+}
+
+#credits{
+	font-family: roboto;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+
+#best{
+	color: white;
+	font-family: roboto;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#bestRecord{
+	color: lawngreen;
+	font-size: 30px;
+	padding-left: 5px;
+	font-family: roboto;
+}
+
+#justRecord{
+	color: lawngreen;
+	font-size: 30px;
+	padding-left: 5px;
+	font-family: roboto;
+}
+
+.centerDiv{
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+	width: 100%;
+	height: 60px;
+	background-color: darkslategray
+}
+
+#box{
+	background-color: red;
+	margin: 15px 15px 15px 15px;
+	width: 100px;
+	height: 100px;
+	display: none;
+	position: relative;
+}
